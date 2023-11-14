@@ -1,0 +1,128 @@
+.home-container {
+  padding-top: 20px;
+  padding: 10px;
+  height: 100vh;
+  background-color: #f5f7fa;
+}
+.home-heading {
+  color: var(--light-blue-gray-800, #1e293b);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.home-para {
+  color: var(--light-blue-gray-600, #475569);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.find-books-button {
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #0284c7;
+  color: var(--light-blue-gray-50, #f8fafc);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  border: 1px solid #0284c7;
+  cursor: pointer;
+}
+.main-slider-container {
+  background: #fff;
+  box-shadow: 0px 0.4434px 0.88679px 0px rgba(96, 97, 112, 0.16),
+    0px 0px 0.4434px 0px rgba(40, 41, 61, 0.08);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.slider-heading {
+  color: var(--light-blue-gray-800, #1e293b);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.social-media-section-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+}
+.common-social-image {
+  margin: 15px;
+}
+.contact-para {
+  color: #3d3c3c;
+  font-family: HK Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+}
+
+@media all and (min-width: 780px) {
+  .home-container {
+    padding: 40px;
+    height: 100vh;
+    background-color: #f5f7fa;
+  }
+  .home-heading {
+    color: var(--light-blue-gray-800, #1e293b);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+  }
+  .home-para {
+    color: var(--light-blue-gray-600, #475569);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .main-slider-container {
+    background: #fff;
+    box-shadow: 0px 0.4434px 0.88679px 0px rgba(96, 97, 112, 0.16),
+      0px 0px 0.4434px 0px rgba(40, 41, 61, 0.08);
+    width: 100%;
+  }
+  .react-slick-large {
+    width: 100%;
+  }
+  .common-social-image {
+    margin: 10px;
+    width: 20px;
+  }
+  .contact-para {
+    color: #3d3c3c;
+    font-family: HK Grotesk;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+  }
+}

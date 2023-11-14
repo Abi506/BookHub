@@ -1,0 +1,236 @@
+.bookItemDetails-success-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+.bookItemDetails-success-bookDetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media all and (min-width: 780px) {
+  .bookItemDetails-success-bookDetails-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .bookItemDetails-book-details-container {
+    padding: 20px;
+  }
+}
+.bookItemDetails-image-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bookItemDetails-image {
+  width: 235px;
+  height: 274px;
+  border-radius: 12px;
+}
+.bookItemDetails-heading {
+  color: var(--light-blue-gray-700, #334155);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.BookItemDetails-para {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.BookItemDetails-span-container {
+  display: flex;
+  flex-direction: row;
+}
+.BookItemDetails-span-para {
+  color: var(--light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.bookItemDetails-span {
+  color: var(--light-blue-gray-700, #334155);
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  align-self: center;
+}
+.bookItemDetails-read-status {
+  display: flex;
+  flex-direction: row;
+  color: var(--light-blue-gray-600, #475569);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 5px;
+}
+.bookItemDetails-read-status-span {
+  color: #0284c7;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.bookItemDetails-star-icon {
+  align-self: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  fill: var(--light-amber-400, #fbbf24);
+  flex-shrink: 0;
+}
+@media all and (min-width: 780px) {
+  .bookItemDetails-heading {
+    color: var(--light-blue-gray-700, #334155);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+  }
+  .BookItemDetails-para {
+    color: var(--light-blue-gray-600, #475569);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .BookItemDetails-span-para {
+    color: var(--light-blue-gray-600, #475569);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .bookItemDetails-star-icon {
+    width: 32px;
+    height: 32px;
+    align-self: center;
+    margin-right: 5px;
+    fill: var(--light-amber-400, #fbbf24);
+    flex-shrink: 0;
+  }
+  .bookItemDetails-span {
+    color: var(--light-blue-gray-700, #334155);
+    font-family: HK Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .bookItemDetails-read-status {
+    color: var(--light-blue-gray-600, #475569);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .bookItemDetails-read-status-span {
+    color: #0284c7;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+  }
+}
+
+.BookItemDetails-separator {
+  width: 80%;
+}
+.bookItemDetails-about-author {
+  color: var(--light-blue-gray-700, #334155);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.bookItemDetails-about-author-para {
+  color: var(--light-blue-gray-600, #475569);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.bookItemDetails-about-book {
+  color: var(--light-blue-gray-700, #334155);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.bookItemDetails-about-book-para {
+  color: var(--light-blue-gray-600, #475569);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+@media all and (min-width: 780px) {
+  .bookItemDetails-about-author {
+    color: var(--light-blue-gray-700, #334155);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .bookItemDetails-about-author-para {
+    color: var(--light-blue-gray-600, #475569);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .bookItemDetails-about-book {
+    color: var(--light-blue-gray-700, #334155);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+  }
+  .bookItemDetails-about-book-para {
+    color: var(--light-blue-gray-600, #475569);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
