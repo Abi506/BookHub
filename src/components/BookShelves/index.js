@@ -93,9 +93,11 @@ class BookShelves extends Component {
   }
 
   searchInput = event => {
-    this.setState({searchText: event.target.value}, () => {
-      this.getData()
-    })
+    this.setState({searchText: event.target.value})
+  }
+
+  searchIconPressed = () => {
+    this.getData()
   }
 
   retryEvent = () => {
@@ -154,7 +156,7 @@ class BookShelves extends Component {
       <div>
         <img
           src="https://res.cloudinary.com/dkmnh0kwl/image/upload/v1699932471/Group_7522_b4fynz.png"
-          alt="failed-view"
+          alt="failure view"
           className="bookshelves-failed-image"
         />
       </div>
@@ -205,12 +207,23 @@ class BookShelves extends Component {
                 onChange={this.searchInput}
                 placeholder="Search"
               />
+
               <div className="search-icon-container">
-                <BsSearch className="search-icon" />
+                <button
+                  className="search-button"
+                  type="button"
+                  data-testid="searchButton"
+                  onClick={this.searchIconPressed}
+                >
+                  <BsSearch className="search-icon" />
+                </button>
               </div>
             </div>
             <div className="exchange-small-container">
               <h1 className="bookshelves-main-heading">Bookshelves</h1>
+              <h1 className="bookshelves-main-heading-large">
+                {bookshelfName}
+              </h1>
               <ul className="filter-section">
                 {bookshelvesList.map(each => (
                   <li className="each-filter" key={each.id}>

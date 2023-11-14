@@ -81,8 +81,8 @@ The app must have the following functionalities
       - When the **Find Books** button is clicked, then the page should be navigated to the Bookshelves Route
       - When a **book item** is clicked, then the page should be navigated to the Book Details Route
 
-    - **Header**  
-    
+    - **Header**
+
       - When the **Book Hub logo** in the header is clicked, then the page should be navigated to the Home Route
       - When the **Home** link in the header is clicked, then the page should be navigated to the Home Route
       - When the **Bookshelves** link in the header is clicked, then the page should be navigated to the Bookshelves Route
@@ -104,7 +104,7 @@ The app must have the following functionalities
       - When a button in the **bookshelves** is clicked (Use the bookshelvesList data provided in the App.js to render Bookshelves),
 
         - The **All Books** heading changed to **{bookshelf name} Books**. Here the bookshelf name refers to the clicked bookshelf label from the provided `bookshelvesList`
-        - Make an HTTP GET request to the **Books API URL**  with `jwt_token` in the Cookies and query parameter `shelf` with value as the value of the clicked bookshelf from the provided `bookshelvesList`
+        - Make an HTTP GET request to the **Books API URL** with `jwt_token` in the Cookies and query parameter `shelf` with value as the value of the clicked bookshelf from the provided `bookshelvesList`
         - **_Loader_** should be displayed while fetching the data
         - After the data is fetched successfully, display the list of books received from the response
 
@@ -216,7 +216,7 @@ The app must have the following functionalities
 
   - Login Route should consist of website logo image with alt as `login website logo`
   - Login Route should consist of a website login image with alt as `website login`
-  - The Cookies should be set by using the key name `jwt_token`  
+  - The Cookies should be set by using the key name `jwt_token`
 
 - **Bookshelves Route**
 

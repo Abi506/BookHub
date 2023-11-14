@@ -1,7 +1,7 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import Loader from 'react-loader-spinner'
-import {AiTwotoneStar} from 'react-icons/ai'
+import {BsFillStarFill} from 'react-icons/bs'
 import {FaGoogle, FaTwitter, FaInstagram, FaYoutube} from 'react-icons/fa'
 import Header from '../Header'
 
@@ -87,7 +87,7 @@ class BookItemDetails extends Component {
             <p className="BookItemDetails-para">{authorName}</p>
             <div className="BookItemDetails-span-container">
               <p className="BookItemDetails-span-para">Avg Rating</p>
-              <AiTwotoneStar className="bookItemDetails-star-icon" />
+              <BsFillStarFill className="bookItemDetails-star-icon" />
               <span className="bookItemDetails-span"> {rating}</span>
             </div>
             <p className="bookItemDetails-read-status">
@@ -132,7 +132,7 @@ class BookItemDetails extends Component {
       <div>
         <img
           src="https://res.cloudinary.com/dkmnh0kwl/image/upload/v1699932471/Group_7522_b4fynz.png"
-          alt="failed-view"
+          alt="failure view"
           className="bookshelves-failed-image"
         />
       </div>

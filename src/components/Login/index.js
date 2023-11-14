@@ -88,12 +88,12 @@ class Login extends Component {
         <div className="website-main-image-container">
           <img
             src="https://res.cloudinary.com/dkmnh0kwl/image/upload/v1699859304/Ellipse_99_qpcrzu.png"
-            alt="website main"
+            alt="website login"
             className="main-image-mobile"
           />
           <img
             src="https://res.cloudinary.com/dkmnh0kwl/image/upload/v1699862245/Rectangle_1467_lpg2aa.png"
-            alt="website main"
+            alt="website login"
             className="main-image-large"
           />
         </div>
@@ -102,7 +102,7 @@ class Login extends Component {
             <div className="website-logo-container">
               <img
                 src="https://res.cloudinary.com/dkmnh0kwl/image/upload/v1699860583/Group_7732_gjihrp.png"
-                alt="website logo"
+                alt="login website logo"
                 className="website-logo"
               />
             </div>

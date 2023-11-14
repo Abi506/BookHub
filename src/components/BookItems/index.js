@@ -22,6 +22,7 @@ const BookItems = props => {
                 <BsFillStarFill className="star-icon" />
                 <span className="book-detail-span">{each.rating}</span>
               </div>
+
               <p className="book-detail-read-status">
                 Status:
                 <span className="book-detail-read-status-span">

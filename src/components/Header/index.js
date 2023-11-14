@@ -26,7 +26,7 @@ class Header extends Component {
       <>
         <nav className="nav-container-small">
           <div className="intermediate-container">
-            <Link to="/" className="nav-link-header">
+            <Link to="/" className="nav-link">
               <div className="logo-container">
                 <img
                   src="https://res.cloudinary.com/dkmnh0kwl/image/upload/v1699860583/Group_7732_gjihrp.png"
@@ -46,10 +46,10 @@ class Header extends Component {
           </div>
           {displayMenu === true && (
             <ul className="sections-list">
-              <Link to="/" className="nav-link-header">
-                <li className="home-section">Home j</li>
+              <Link to="/" className="nav-link">
+                <li className="home-section">Home </li>
               </Link>
-              <Link to="/shelf" className="nav-link-header">
+              <Link to="/shelf" className="nav-link">
                 <li className="bookshelves-section">Bookshelves </li>
               </Link>
               <li className="button-list">
