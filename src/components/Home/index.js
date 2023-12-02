@@ -6,7 +6,6 @@ import Header from '../Header'
 import ReactSlick from './ReactSlick'
 
 import './index.css'
-import BookShelves from '../BookShelves'
 
 const status = {
   initial: 'INITIAL',
