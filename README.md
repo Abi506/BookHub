@@ -1,4 +1,4 @@
-**Book Hub** is a responsive React application designed for book enthusiasts to explore and discover new reads. It features a user-friendly interface that allows users to.**Book Hub** offering a seamless experience from login to exploring a curated collection of books. The project features a Login page, a Home page with an engaging carousel, BookShelves a Search page with versatile filtering options, and a Book Items page that provides in-depth details about each selected book.
+**Book Hub** is a responsive React application designed for book enthusiasts to explore and discover new reads. It features a user-friendly interface to users .**Book Hub** offering a seamless experience from login to exploring a curated collection of books. The project features a Login page, a Home page with an engaging carousel, BookShelves a Search page with versatile filtering options, and a Book Items page that provides in-depth details about each selected book.
 
 #### Features
 
